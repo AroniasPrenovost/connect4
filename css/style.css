@@ -1,0 +1,144 @@
+html, body {
+	margin: 0; 
+	height: 100%; 
+	background-color: #1A1C21;  
+}
+
+.jumbotron {
+	background-color: transparent;
+	color: #fcf4d4;
+}
+
+.container {
+	position: relative;
+	padding-right: 0px; 
+	padding-left: 0px;  
+}
+
+.row {
+	margin-right: 0px; 
+	margin-left: 0px; 
+}
+
+#container { 
+	background-color: #D0A2B0;
+}
+
+.boardContainer {
+	position: relative;
+	margin: 0 auto;
+	max-width: 500px;
+	min-width: 700px;
+	height:auto;
+	border-radius: 3px;
+}
+
+.token-slot {
+	height:80px;
+	width: 13%;
+	margin:2px 2px 2px 3px;
+	display:inline-block;
+	border-radius:50%;
+}
+
+.column-hover {
+	height:80px;
+	width: 13%;
+	margin:2px 2px 2px 3px;
+	background:none;
+	display:inline-block;
+	border-radius:50%;
+	position: relative;
+}
+
+.columnWrapper {
+	top:0;
+	width:100%;
+	height:100%;
+	background-color: transparent;
+	position: absolute;
+}
+
+.column-choice {
+	height:100%;
+	width: 12.8%;
+	margin:2px 2px 2px 3px;
+	display:inline-block;
+	border-radius:0;
+	background-color:transparent;
+	outline: none;
+	border:0;
+}
+
+/* scorecard */ 
+.flexBox {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+.card {
+	width: 380px;
+	border-radius: 5px;
+}
+
+.message {
+	font-size:10px;
+	color:black;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.score-header {
+	width: 100%;
+	height: 150px;
+	background: #FFF;
+	border-radius: 5px 5px 0 0;
+}
+
+.team, .info {
+	float: left;
+}
+
+.team {
+	width: 105px;
+	text-align: center;
+	padding: 40px 34px 25px 34px;
+}
+
+.info {
+	width: 170px;
+	text-align: center;
+	padding-top: 40px;
+}
+
+.timeline {
+	position: relative;
+	padding: 60px 40px 20px 40px;
+	float: left;
+	width: 100%;
+} 
+
+.score {
+	width: 170px;
+	height: auto;
+	overflow: hidden;
+	position: absolute;
+	top: -50px;
+	left: 105px;
+}
+
+h3 {
+	font-size: 3em;
+	color: #333;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	padding: 13px 20px;
+	width: 50%;
+	text-align: center;
+	background: #fcfcfc;
+	margin: 0;
+	float: left;
+}

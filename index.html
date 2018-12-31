@@ -1,0 +1,264 @@
+<!doctype html>
+<html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+	<div class="container">
+		<div class="jumbotron">
+			<h1 style="text-align: center;">CONNECT 4</h1>
+		</div>
+	</div>
+
+	<div class="boardContainer">
+		<div id="container">
+			<div class="row" style="background-color: #D0A2B0">
+				<div class="col-lg-12">
+					<div class="column-hover" name="test">
+
+					</div>
+					<div class="column-hover" name="test">
+
+					</div>
+					<div class="column-hover" name="test">
+
+					</div>
+					<div class="column-hover" name="test">
+
+					</div>
+					<div class="column-hover" name="test">
+
+					</div>
+					<div class="column-hover" name="test">
+
+					</div>
+					<div class="column-hover" name="test">
+
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="token-slot" name="test">
+
+					</div>
+					<div class="token-slot" name="test">
+
+					</div>
+					<div class="token-slot" name="test">
+
+					</div>
+					<div class="token-slot" name="test">
+
+					</div>
+					<div class="token-slot" name="test">
+
+					</div>
+					<div class="token-slot" name="test">
+
+					</div>
+					<div class="token-slot" name="test">
+
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="token-slot" name="test">
+
+					</div>
+					<div class="token-slot" name="test">
+
+					</div>
+					<div class="token-slot" name="test">
+
+					</div>
+					<div class="token-slot" name="test">
+
+					</div>
+					<div class="token-slot" name="test">
+
+					</div>
+					<div class="token-slot" name="test">
+
+					</div>
+					<div class="token-slot" name="test">
+
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="token-slot" name="test">
+
+					</div>
+					<div class="token-slot" name="test">
+
+					</div>
+					<div class="token-slot" name="test">
+
+					</div>
+					<div class="token-slot" name="test">
+
+					</div>
+					<div class="token-slot" name="test">
+
+					</div>
+					<div class="token-slot" name="test">
+
+					</div>
+					<div class="token-slot" name="test">
+
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="token-slot" name="test">
+
+					</div>
+					<div class="token-slot" name="test">
+
+					</div>
+					<div class="token-slot" name="test">
+
+					</div>
+					<div class="token-slot" name="test">
+
+					</div>
+					<div class="token-slot" name="test">
+
+					</div>
+					<div class="token-slot" name="test">
+
+					</div>
+					<div class="token-slot" name="test">
+
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="token-slot" name="test">
+
+					</div>
+					<div class="token-slot" name="test">
+
+					</div>
+					<div class="token-slot" name="test">
+
+					</div>
+					<div class="token-slot" name="test">
+
+					</div>
+					<div class="token-slot" name="test">
+
+					</div>
+					<div class="token-slot" name="test">
+
+					</div>
+					<div class="token-slot" name="test">
+
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="token-slot" name="test">
+
+					</div>
+					<div class="token-slot" name="test">
+
+					</div>
+					<div class="token-slot" name="test">
+
+					</div>
+					<div class="token-slot" name="test">
+
+					</div>
+					<div class="token-slot" name="test">
+
+					</div>
+					<div class="token-slot" name="test">
+
+					</div>
+					<div class="token-slot" name="test">
+
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="columnWrapper" id="columnWrapper">
+					<div class="column-choice" style="margin-left:1%" name="test">
+
+					</div>
+					<div class="column-choice" name="test">
+
+					</div>
+					<div class="column-choice" name="test">
+
+					</div>
+					<div class="column-choice" name="test">
+
+					</div>
+					<div class="column-choice" name="test">
+
+					</div>
+					<div class="column-choice" name="test">
+
+					</div>
+					<div class="column-choice" name="test">
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<div class="container">
+		<div class="row">
+			<div class="flexBox">
+				<div class="card">
+					<a href="#/" id="resetButton">Reset Game</a>
+					<a href="#/" id="resetPoints">Clear Score</a>
+					<div class="score-header">
+						<div class="team">
+							<h4>Player 1</h4>
+						</div>
+						<div class="info">
+							<h4 id="message">Player 1's turn</h4>
+						</div>
+						<div class="team">
+							<h4>Player 2</h4>
+						</div>
+					</div>
+					<div class="timeline">
+						<div class="score">
+							<h3 id="p1score">0</h3>
+							<h3 id="p2score">0</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script
+	src="https://code.jquery.com/jquery-3.3.1.min.js"
+	integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+	crossorigin="anonymous"></script>
+	<script src="js/index.js"></script>
+</body>
+</html>
